@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "EHIC",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/ehic/StructureDefinition/EHIC",
+    "version" : "0.1.0",
+    "name" : "EHIC"
+  },
+  {
+    "id" : "who.fhir.smart-ig-empty",
+    "type" : "ImplementationGuide",
+    "url" : "http://worldhealthorganization.github.io/smart/ImplementationGuide/who.fhir.smart-ig-empty",
+    "version" : "0.1.0",
+    "name" : "SMART"
+  }
+]

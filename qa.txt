@@ -1,0 +1,24 @@
+SMART : Validation Results
+=========================================
+
+err = 3, warn = 8, info = 0
+IG Publisher Version: 1.5.16
+Generated Fri Feb 16 12:02:10 UTC 2024. FHIR version 4.3.0 for who.fhir.smart-ig-empty#0.1.0 (canonical = http://worldhealthorganization.github.io/smart)
+ Build Errors : 0 / 4 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-EHIC : 2 / 3 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json ==
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.meta.profile[0]: Canonical URLs must be absolute URLs if they are not fragment references (SMARTImplementationGuide)
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.meta.profile[0]: Profile reference 'SMARTImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/StructureDefinition-EHIC.json ==
+ERROR: StructureDefinition.where(url = 'http://smart.who.int/ehic/StructureDefinition/EHIC'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-EHIC.json - the canonical URL (http://worldhealthorganization.github.io/smart/StructureDefinition/EHIC) does not match the URL (http://smart.who.int/ehic/StructureDefinition/EHIC)
+WARNING: StructureDefinition/EHIC: StructureDefinition.description: The markdown contains content that appears to be an embedded HTML tag starting at 'Lo'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
+WARNING: StructureDefinition/EHIC: StructureDefinition.snapshot.element[0].definition: The markdown contains content that appears to be an embedded HTML tag starting at 'Lo'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
+WARNING: StructureDefinition/EHIC: StructureDefinition.differential.element[0].definition: The markdown contains content that appears to be an embedded HTML tag starting at 'Lo'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-EHIC: URL Mismatch http://worldhealthorganization.github.io/smart/StructureDefinition/EHIC vs http://smart.who.int/ehic/StructureDefinition/EHIC
