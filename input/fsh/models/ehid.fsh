@@ -19,7 +19,7 @@ The JSON Schema for the EHIC is defined <HERE>.  This Logical Model is a HL7 FHI
 * dob 1..1 date "Date of Birth" "date of birth of the card holder"
 * expiry 1..1 date "Expiry" "expiry date of the card"
 * iso 1..1 string "ISO" "ISO code of the Member State issuing the card"
-* id 1..1 string "ID" "identification number and acronym of the competent institution"
-* ln 1..1 string "LN" "logical number of the card"
+* iid 1..1 string "Insitituion Identification Number" "identification number and acronym of the competent institution"
+* cln 1..1 string "Card Logical Number" "logical number of the card"
 
 
